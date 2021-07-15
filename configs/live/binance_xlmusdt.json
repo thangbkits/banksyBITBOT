@@ -1,5 +1,6 @@
 {"config_name": "xlmusdt_183days_adg1.89%_bkr91.16%",
  "logging_level": 0,
+  "allow_sharing_wallet": true,
  "long": {"enabled": true,
           "iprc_MAr_coeffs": [[0.013545846963027288, 0.09650924168462807],
                               [0.0639222253741933, -0.02640800620263284],

@@ -1,5 +1,6 @@
 {"config_name": "hbarusdt_97_days_adg3.65%_bkr39.46%",
  "logging_level": 0,
+  "allow_sharing_wallet": true,
  "long": {"enabled": true,
           "iprc_MAr_coeffs": [[0.0013951008343571674, -0.0013065760497631045],
                               [-0.01855206671050624, 0.004115331348393293],

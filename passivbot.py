@@ -28,7 +28,7 @@ class Bot:
         self.config['do_long'] = config['long']['enabled']
         self.config['do_shrt'] = config['shrt']['enabled']
         self.config['max_leverage'] = 25
-        self.telegram = None
+        self.telegram = True
         self.xk = {}
 
         self.hedge_mode = self.config['hedge_mode'] = True
@@ -241,7 +241,7 @@ class Bot:
             no_pos = long_psize == 0.0 and shrt_psize == 0.0
             do_long = (no_pos and self.do_long) or long_psize != 0.0
             do_shrt = (no_pos and self.do_shrt) or shrt_psize != 0.0
-                                              
+
         self.xk['do_long'] = do_long
         self.xk['do_shrt'] = do_shrt
 

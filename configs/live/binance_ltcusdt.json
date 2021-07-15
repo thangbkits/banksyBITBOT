@@ -1,5 +1,6 @@
 {"config_name": "binance_ltcusdt_214days_adg1.22%_bkr51.45%",
  "logging_level": 0,
+ "allow_sharing_wallet": true,
  "long": {"enabled": true,
           "iprc_MAr_coeffs": [[0, 0], [0, 0], [0, 0]],
           "iprc_const": 0.9866470054583458,
